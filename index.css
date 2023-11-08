@@ -1,0 +1,460 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border:border-box;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+hero{
+    margin-top: 1800px;
+}
+/* .position{
+    position: fixed;
+    width: 100%;
+} */
+
+.nav_logo{
+    height: 50px;
+    width: 100px;
+}   
+
+.logo{
+    background-image: url(/image/amazon_logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+
+.border{
+    border: 2px solid transparent;
+}
+
+.border:hover{
+    border: 1.5px solid white   ;
+    
+    
+}
+
+.add_first{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+
+.add_secound{
+    font-size: 1rem;
+    margin-left: 15px;
+
+}
+
+.add_icon{
+    display: flex;
+}
+
+.nav_search{
+    display: flex;
+    background-color: pink;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+    justify-content: space-evenly;
+
+}
+
+
+.search_bar:hover{
+    border: 3px solid orange   ;
+}
+
+.search_select{
+    background-color: #f3f3f3;
+    border-top-left-radius:4px;
+    border-bottom-left-radius: 4px;
+    text-align: center;
+    border: none;
+}
+
+
+.search_input{
+    width: 100%;
+    font-size:1rem;
+    border: none;
+}
+
+.srarch_icon{
+    border: none;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    background-color: rgb(245, 203, 79);
+
+}
+
+.srarch_icon:hover{
+    border: none;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    background-color:rgba(54, 54, 251, 0.897);
+    border: 1.5px solid white   ;
+}
+
+span{
+    font-size: 0.7rem;
+}
+
+.nav_secound{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.nav_cart i{
+font-size: 25px;
+}
+
+.nav_cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.nav_lan{
+    font-size:0.85rem;
+    font-weight: 700;
+}
+
+.nav_lang{
+    display: flex;
+}
+
+.nav_pannel{
+    height: 40px;
+    background-color:  #222f3d;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.nav_options p{
+    
+    display: inline;
+    margin-left: 15px;
+    
+}
+
+.nav_options{
+    width: 70%;
+    font-size: 0.85rem;
+}
+
+.nav_electronic{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+/* hero section */
+
+.hero_section{
+    background-image: url("/image/hero_image.jpg");
+    height: 300px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+.hero_massage{
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    /* text-align: center; */
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 90%;
+    margin-bottom:40px;
+
+}
+.hero_massage a{
+     color: #007185;
+}
+
+.shop_section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color:#bcccd8;
+}
+
+.box{
+    height: 300px;
+    border: 0px solid black;
+    width: 23%;
+    background-color: #324065;
+    margin-top: 10px;
+}
+
+.box_image1{
+    background-image: url("/image/box1_image.jpg");
+    height: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box1 {
+    
+    text-align: center;
+    background-color:#324065;
+    color:white ;   
+}
+
+/* For All box hover Box1-Box4 */
+
+.box_hover:hover{
+    text-align: center;
+    color:#ce785d ;
+    border: 2px solid yellow;
+    text-decoration:dotted;
+    transition-delay: 1s;   
+}
+.box1 a{
+    text-decoration: none;
+    color: white;
+}
+
+.box1 a:hover{
+    color: #ce785d;
+    text-decoration: underline;
+}
+
+.box_margin{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.box_image2{
+    background-image: url("/image/box5_image.jpg");
+    height: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.box2 {
+    
+    text-align: center;
+    background-color:#324065;
+    color:white ;   
+}
+
+.box2 a{
+    color: white;
+    text-decoration: none;
+}
+
+.box2 a:hover{
+    color: #ce785d;
+    text-decoration: underline;
+}
+
+.box_image3{
+    background-image: url("/image/box4_image.jpg");
+    height: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.box3 {
+    
+    text-align: center;
+    background-color:#324065;
+    color:white ;   
+}
+
+.box3 a{
+    color: white;
+    text-decoration: none;
+}
+
+.box3 a:hover{
+    color: #ce785d;
+    text-decoration: underline;
+}
+
+.box_image4{
+    background-image: url("/image/box2_image.jpg");
+    height: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box4 {
+    text-align: center;
+    background-color:#324065;
+    color:white ;   
+}
+
+.box4 a{
+    color: white;
+    text-decoration: none;
+}
+
+.box4 a:hover{
+    color: #ce785d;
+    text-decoration: underline;
+}
+
+.sell_section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:#bcccd8;
+}
+
+.boxs{
+    height: 300px;
+    border:2px solid black;
+    width: 23%;
+    background-color: #324065;
+    margin-top: 20px;
+}
+.boxs:hover{
+    height: 300px;
+    border:5px solid rgb(245, 203, 79);
+    width: 49%;
+    background-color: #324065;
+    margin-top: 20px;
+    color: #ce785d;
+    background-size: cover;
+}
+
+.half_box1{
+    text-align: center;
+    background-color:#324065;
+    color:white ;
+}
+
+.box_image_laptop{
+    background-image: url("/image/Laptop.jpg");
+    height: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.half_box1 a{
+    text-align: center;
+    background-color:#324065;
+    text-decoration: none;
+    color: white;
+}
+.half_box1 a:hover{
+    text-align: center;
+    background-color:#324065;
+    color:#ce785d ;
+    text-decoration: underline;
+}
+
+.half_box2{
+    text-align: center;
+    background-color:#324065;
+    color:white ;
+}
+
+.box_image_smartwatch{
+    background-image: url("/image/Fitshot-aster.jpg");
+    height: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.half_box2 a{
+    text-align: center;
+    background-color:#324065;
+    text-decoration: none;
+    color: white;
+}
+
+.half_box2 a:hover{
+    text-align: center;
+    background-color:#324065;
+    text-decoration: underline;
+    color: #ce785d;
+}
+
+footer{
+    margin-top: 15px;
+}
+
+.foot_pannel_1{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+
+.foot_pannel_2{
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+ul p{
+    margin-top: 15px;
+
+}
+
+ul a{
+    display: block;
+    font-size: 0.85rem  ;
+    margin-top: 10px;
+}
+
+.sign_1{
+    margin-top: 5px;
+    justify-content:center;
+    display: flex;
+
+}
+.sign_1 p{
+    font-size: .85rem;
+}
+button{  
+    font-weight: bold;
+    background-color:rgb(245, 203, 79);
+    height: 30px;
+    width: 200px;
+    border-radius: 4px;
+}
+
+button:hover{
+    font-weight: bold;
+    background-color:rgb(245, 203, 79);
+    height: 30px;
+    width: 210px;
+    border-radius: 4px;
+    border: 3px solid black;
+}
